@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="C:\Users\simon\Desktop\Documentos INACAP\Tercer Semestre\Programación Front End\Apuntes formato html\css para apuntes formato html.css">
+</head>
+<body>
+    <h1 id="TITULO">Apuntes Formato HTML</h1>
+    <h2 class="titulos_azules">Encabezados</h2>
+    <hr>
+    <h2 class="titulos_azules">Párrafos</h2>
+    <hr>
+    <h2 class="titulos_azules">Enlaces</h2>
+        <p>< a > <br> Se usa con href dentro del <> así: < a  href="https://www.example.com">Visita Example< / a > </p>
+        <table>
+            <tr>Ejemplo: </tr>
+            <tr><a href="https://es.wikipedia.org/wiki/Electrost%C3%A1tica#M%C3%A9todos_de_carga">Gato Electroestatico</a></tr>
+        </table>
+        <p>Para que abra el vinculo en una nueva pestaña debemos poner target="_blank" dentro de la etiqueta</p>
+        <table>
+            <tr>Ejemplo: </tr>
+            <tr><a target="_blank" href="https://es.wikipedia.org/wiki/Electrost%C3%A1tica#M%C3%A9todos_de_carga">Gato Electroestatico</a></tr>
+        </table>
+
+    <hr>
+    <h2 class="titulos_azules">Imágenes</h2>
+        <img src="C:\Users\simon\Desktop\Documentos INACAP\Tercer Semestre\Programación Front End\Semana 5\Clase5\gato_electroestatico.jpg">
+    <hr>
+    <h2 class="titulos_azules">Listas</h2>
+        <p>Las listas pueden ser ordenadas (ol)(que significa "ordered list") o sin orden (ul)(que significa "un-ordered list"), y sus elementos se colocan sangrados con el "li" (que es "list item") </p>
+    <hr>
+    <h2 class="titulos_azules">Tablas</h2>
+        <p>td significa table data, si pones varios td se agruparan en una fila </p>
+        <p>tr significa table row, o fila de tabla</p>
+        <p>th significa table header y sirve para reconocer los encabezados de una tabla</p>
+        <div id="div_1">
+            <h3>tabla vertical</h3>
+            <table>
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                    <th>Encabezado 4</th>
+                </tr>
+                <tr>
+                    <td>A1</td>
+                    <td>A2</td>
+                    <td>A3</td>
+                    <td>A4</td>
+                </tr>
+                <tr>
+                    <td>B1</td>
+                    <td>B2</td>
+                    <td>B3</td>
+                    <td>B4</td>
+                </tr>
+                <tr>
+                    <td>C1</td>
+                    <td>C2</td>
+                    <td>C3</td>
+                    <td>C4</td>
+                </tr>
+            </table>
+        </div>
+        <div id="div_2">
+            <p>tabla horizontal</p>
+            <table>
+                <tr>
+                    <th>A1</th>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <th>A2</th>
+                    <td>10</td>
+                    <td>20</td>
+                    <td>30</td>
+                    <td>40</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div id="div_3">
+            <b>tabla tipo excel</b>
+            <table>
+                <tr>
+                    <td>...</td>
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>A1</td>
+                    <td>B1</td>
+                    <td>C1</td>
+                    <td>D1</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td>A2</td>
+                    <td>B2</td>
+                    <td>C2</td>
+                    <td>D2</td>
+                </tr>
+            </table>
+        </div>
+    <hr>
+    <h2 class="titulos_azules">Formularios</h2>
+        <p>Los formularios empiezan con el < form > y pueden incluir varios elementos de entrada como < input >, < textarea >, < button >, etc.</p>
+        <p id="p_importante_1">Sin el atributo name no se envian los datos del input.</p>
+        <p>Es fundamental que los inputs esten asociados a un label (etiqueta)</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="ingrese su nombre">
+            <button type="submit">Enviar</button>
+        </form>
+    <hr>
+    <h2 class="titulos_azules">Divisiones y Spans</h2>
+        <p>Etiquetas como < span > permiten seleccionar una parte del párrafo, pero sin alterar el 
+        contenido del parrafo</p>
+        <p>Usando span <span style="background-color: green;">estoy usando span</span></p>
+</body>
+</html>

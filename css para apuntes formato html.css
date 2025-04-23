@@ -1,0 +1,32 @@
+#TITULO{
+    color:red;
+    border:5px red dotted;
+}
+
+.titulos_azules{
+    color: rgb(75, 75, 216);
+}
+
+#div_1{
+    background-color: aquamarine;
+    width: 300px;
+    margin: auto;
+}
+
+#div_2{
+    background-color: rgb(255, 251, 127);
+    width: 300px;
+    margin: auto;
+}
+
+#div_3{
+    background-color: rgb(127, 168, 255);
+    width: 300px;
+    margin: auto;
+}
+
+#p_importante_1{
+    border:2px yellow solid;
+    margin: 20px 20px 20px 5%;
+    padding: 5px 10px 15px 5%;
+}
